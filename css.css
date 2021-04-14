@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#wrapper {
+    border: 6px solid black;
+}
+
+/* ######## design header ##########  */
+.header {
+    /* border: 2px solid red; */
+    height: 90vh;
+    background-image: url("pic4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+.navbar {
+    /* border: 2px solid green; */
+}
+
+.content {
+    /* border: 2px solid blue; */
+}
+
+/* ###### design with navbar #########  */
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar,
+.logo,
+.cart,
+.nav-item {
+    /* margin: 5px; */
+    /* padding: 10px; */
+    /* flex: 1; */
+    /* border: 2px solid gray; */
+    color: white;
+
+}
+
+
+.logo {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    color: red;
+    letter-spacing: 3px;
+
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: red;
+}
+
+/* ########### nav-item ######  */
+.nav-item ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.nav-item li {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* border: 2px solid red; */
+    padding: 5px;
+    /* display: inline-block; */
+    font-size: 30px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+/* ######################## now wiht header content ######  */
+.content {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.content h1 {
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+}
+
+.content p {
+    color: orange;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.btn {
+    background: black;
+    color: white;
+    margin: 10px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+/* ############# start with section ######  */
+.section {
+    /* border: 4px solid red; */
+    height: 100%vh;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #707B7C;
+
+}
+
+.box {
+    /* border: 2px solid red; */
+    height: 100%vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+
+    justify-content: space-between;
+}
+
+.box,
+.first,
+.image {
+    width: 50%;
+}
+
+.box h1 {
+    font-size: 20px;
+    font-family: cursive;
+    padding: 8px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    background: #7F8C8D;
+}
+
+.box p {
+    background: #BFC9CA;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+
+}
+
+.image {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box,
+.second,
+.image2 {
+    width: 50%;
+}
+
+.second {
+    background-image: url("pic5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ############ footer design ########  */
+footer {
+    background: #34495E;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    /* border: 2px solid white; */
+    color: thistle;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center
+}
